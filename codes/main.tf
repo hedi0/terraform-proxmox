@@ -24,7 +24,7 @@ resource "proxmox_virtual_environment_vm" "hedi_vm" {
     size         = 3
   }
 
-  # CDROM with ISO
+  # CD-ROM with ISO
   cdrom {
     file_id   = "local:iso/Core-16.2.iso"
     interface = "ide2"
