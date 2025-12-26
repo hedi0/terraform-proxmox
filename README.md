@@ -89,7 +89,7 @@ Once installed and configured, you can start defining your Proxmox infrastructur
 
 Here's an example of how to create a simple Ubuntu VM on your Proxmox host using Terraform.
 
-    You Can see the main.tf
+    You Can see the ![main File](/codes/main.tf)
 
 To apply this configuration:
 
