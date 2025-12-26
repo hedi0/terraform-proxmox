@@ -97,7 +97,7 @@ provider "proxmox" {
 ```
 
 ------------------------------------------------------------------------
-![Project Preview](/images/terraform_init.png)
+![terraform init](/images/terraform_init.png)
 #### 4️⃣ Initialize Terraform
 
 ``` bash
