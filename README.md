@@ -39,7 +39,7 @@ To get started with `terraform-proxmox`, you'll need Terraform installed and con
 
 2.  **Configure Proxmox Provider:**
     Create the 3 Files in the `codes/` folder in your Proxmox Local Storage. Ensure you use the correct source for the Proxmox provider.
-    ![create](/images/Add the ISO IMAGE to local.png)
+    ![create](/images/Add_the_ISO_IMAGE_to_local.png)
     ```hcl
     # versions.tf
     terraform {
