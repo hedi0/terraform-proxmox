@@ -84,19 +84,20 @@ terraform {
 
 #### 3️⃣ Configure Authentication (Recommended: Environment Variables)
 
-``` bash
-export TF_VAR_proxmox_token_secret="PASTE_YOUR_TOKEN_HERE"
+```hcl
+terraform.tfvars :
+proxmox_token_secret="PASTE_YOUR_TOKEN_HERE"
 ```
 
 ``` hcl
 provider "proxmox" {
-  endpoint  = "https://YOUR_PROXMOX_IP:8006/"
+  endpoint  = "https://YOUR_PROXMOX_VM_IP:8006/"
   api_token = "terraform@pve!terraform-token=${var.proxmox_token_secret}"
 }
 ```
 
 ------------------------------------------------------------------------
-
+![Project Preview](/images/terraform_init.png)
 #### 4️⃣ Initialize Terraform
 
 ``` bash
