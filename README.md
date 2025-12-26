@@ -23,7 +23,7 @@ To get started with `terraform-proxmox`, you'll need Terraform installed and con
 
 ### Prerequisites
 
-1.  **Terraform CLI:** Download and install Terraform from the official [Terraform website](https://www.terraform.io/downloads.html).
+1.  **Terraform :** Download and install Terraform in the Proxmox VM shell ( Web Interface ) .
 2.  **Proxmox VE Instance:** A running Proxmox Virtual Environment instance with API access enabled.
 3.  **Proxmox API Token:** Create an API token for a user on your Proxmox VE for Terraform to authenticate.
 
@@ -38,8 +38,8 @@ To get started with `terraform-proxmox`, you'll need Terraform installed and con
     ```
 
 2.  **Configure Proxmox Provider:**
-    Create a `versions.tf` file (or similar) in your project directory to declare the Proxmox provider. Ensure you use the correct source for the Proxmox provider.
-
+    Create the 3 Files in the `codes/` folder in your Proxmox Local Storage. Ensure you use the correct source for the Proxmox provider.
+    ![create](/images/ter_prox.png)
     ```hcl
     # versions.tf
     terraform {
