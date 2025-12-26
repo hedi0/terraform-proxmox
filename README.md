@@ -7,7 +7,7 @@ Automate your Proxmox VE infrastructure provisioning with Terraform, enabling ro
 ![Stars](https://img.shields.io/github/stars/hedi0/terraform-proxmox?style=social)
 ![Forks](https://img.shields.io/github/forks/hedi0/terraform-proxmox?style=social)
 
-![Project Preview](/preview_example.png)
+![Project Preview](/ter_prox.png)
 
 ## ✨ Features
 
