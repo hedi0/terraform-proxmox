@@ -1,4 +1,4 @@
-resource "proxmox_virtual_environment_vm" "test_vm" {
+resource "proxmox_virtual_environment_vm" "hedi_vm" {
   name      = "hedi-tf-VM"
   node_name = "pve"
 
@@ -39,10 +39,10 @@ resource "proxmox_virtual_environment_vm" "test_vm" {
 # Output VM information
 output "vm_id" {
   description = "VM ID"
-  value       = proxmox_virtual_environment_vm.test_vm.id
+  value       = proxmox_virtual_environment_vm.hedi_vm.id
 }
 
 output "vm_name" {
   description = "VM Name"
-  value       = proxmox_virtual_environment_vm.test_vm.name
+  value       = proxmox_virtual_environment_vm.hedi_vm.name
 }
