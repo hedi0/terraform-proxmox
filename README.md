@@ -14,7 +14,7 @@ deployments.
 ------------------------------------------------------------------------
 
 ## ✨ Features
-gert
+
 -   🚀 **Automated Infrastructure Provisioning**\
     Create, manage, and destroy Proxmox Virtual Machines (VMs) and
     Containers (CTs) using Terraform.
