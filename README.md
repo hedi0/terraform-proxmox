@@ -147,6 +147,4 @@ terraform fmt
 
 ## 📄 License
 
-Licensed under the **Apache License 2.0**.
-
-**© 2023--2025 hedi0**
+Licensed under t
