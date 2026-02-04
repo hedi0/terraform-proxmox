@@ -129,6 +129,7 @@ terraform apply
   `name`          VM or CT name                        `string`   Required
 
   `memory`        RAM in MB                            `number`   512
-
-  `cpu.cores`     Number of CPU cores                  `number`   1
+  
+  `cpu.cores`     Number of CPU cores                  `number`  
+  
   --------------------------------------------------------------------------
