@@ -132,5 +132,3 @@ terraform apply
 
   `cpu.cores`     Number of CPU cores                  `number`   1
   --------------------------------------------------------------------------
-
----
