@@ -137,4 +137,4 @@ terraform apply
 
 ## 🤝 Contributing
 
-Pull requests are welcome. Please 
+Pull requests are we
