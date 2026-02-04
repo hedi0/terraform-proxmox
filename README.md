@@ -137,6 +137,4 @@ terraform apply
 
 ## 🤝 Contributing
 
-Pull requests are welcome. Please format code using:
-
-``` ba
+Pull requests are welcome. Please format code u
