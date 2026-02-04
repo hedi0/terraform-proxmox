@@ -139,5 +139,4 @@ terraform apply
 
 Pull requests are welcome. Please format code using:
 
-``` bash
-terraform 
+``` ba
